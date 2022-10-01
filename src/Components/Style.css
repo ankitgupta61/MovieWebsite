@@ -1,10 +1,12 @@
 body{
-    background-color:  rgb(68, 68, 129);
+    background: url("https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu-uai-1600x900.jpg");
+    /* rgb(68, 68, 129); */
 }
 .movie{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color: rgba(53, 48, 48, 0.362);
 }
 .container{
     margin-top: 30px;
@@ -14,7 +16,10 @@ body{
 .header{
     margin-top: 30px;
     width: 100%;
-    background-color: rgb(41, 41, 83);
+    /* background-color: rgb(80, 63, 63); */
+    /* display: block; */
+    /* rgb(41, 41, 83); */
+    background-color: rgba(53, 48, 48, 0.362);
 }
 
 .header div{
@@ -25,14 +30,17 @@ body{
     padding-top: 20px;
     visibility: visible;
 }
-
+.TVmaze{
+    color: rgb(156, 156, 156);
+}
 .input{
     width: 100%;
     padding: 5px;
-    background-color: rgb(41, 41, 83);
+    background-color: rgb(255, 255, 255);
+    /* rgb(41, 41, 83); */
     border: none;
     border-bottom: 1px solid rgb(177, 172, 172);
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .top-input-field{
     display: flex;
@@ -40,9 +48,11 @@ body{
 }
 .main-card{
     width: 300px;
-    background-color: rgb(41, 41, 83);
+    background-color:rgb(43, 0, 0);
+     /* rgb(41, 41, 83); */
     color: rgb(255, 255, 255);
     height: 535.61px;
+    margin-top: 50px;
 }
 .no-image{
     height: 362.42px;
@@ -70,7 +80,7 @@ body{
 
 }
 .card:hover{
-    box-shadow: 0px 0px 10px 10px rgb(41, 41, 83);
+    box-shadow: 0px 0px 10px 10px rgb(43, 0, 0);
     cursor: pointer;
 }
 .card-body button{

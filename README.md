@@ -1,18 +1,17 @@
-Project's Title
+Title of Project
 
-Movie Website9 is the name of the project. It describes the whole project in one sentence, and helps people understand what the main goal and aim of the project is.
-
+Title of Project is TVmaze. Here list of shows are rendered according to search. One can get show list by searching with Actor Name or show name.
 Project Description
 
 a. WHY this project was chosen (what use case does it solve)?
 
-This project is very good as we talking about learning, meaning for learning purpose this is awesome project. And this is reason why i am choosing this.
+This project eases out the finding for one's favourite show. One can get list of shows using actor name as well. I had a great learning curve while doing this project.
 
 b. HOW did you make the project (Tech Stack, Database, APIs) ?
 
-TechStack : JavaScript, ReactJS, HTML, CSS, Bootstrap
-Api : TV-Maze api used that is given.
+TechStack : ReactJS, JavaScript, Bootstrap, HTML, CSS
+Api : TV-Maze api used those were provided
 
-c. WHAT features, technical things you had implemented ?
+c. WHAT features, technical things you have implemented ?
 
-I implemented html, css and javascript, reactJS feature. Its included samantic tags for better understanding of others and. And in css part i used class selector for styling.
+I have implemented a slider, a search bar for show with two category as search by ActorName and search by ShowName. It also does have popular shows on website. 

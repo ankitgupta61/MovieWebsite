@@ -27,14 +27,18 @@ export default function Main() {
     <>
       <div className='mb-5'>
           <div className='container header'>
-              <h4>Search your favourite show</h4><br/>
+          <h1 style={{ color: "white" } } className="TVmaze">TVmaze</h1>
+        <h4 style={{ color: "white" }}>Search your favourite shows </h4>
+        <br></br>
+              {/* <h2>TVmaze</h2>
+              <h4>Search your favourite show</h4><br/> */}
               <input className='mx-1' onClick={showAccordingActor} type={"radio"} value = "Actor" name="choose" id='actor' /><label htmlFor='actor'>Actor</label>
               <input className='ml-3 mx-1' onClick={showAccordingShow} type={"radio"} value = "Show" name="choose" id='show' /><label htmlFor='show'>Show</label>
               {(show===1 && input.length===0) ? <div>Enter actor name below</div> : ((show===0 && input.length===0) && <div>Enter show name below</div>)}
-              <input className='input' type={"text"} placeholder="eg. friends or shakira" onChange={(e)=>{inputValue(e)}}/><br /><br />
+              <input className='input' type={"text"} placeholder="eg.Leonardo Decaprio or Vampire Dairies" onChange={(e)=>{inputValue(e)}}/><br /><br />
           </div>
           <div className="container bottom-container">
-              {input.length === 0 && <InitialView /> }
+              {input.length === 0 ? <InitialView /> : (show === null && <div>Please select actor or show</div>)}
               {show===1 ? <Actor inputVal = {input} inputHitted = {checkInput}/> : show===0 && <Movie inputVal = {input} inputHitted = {checkInput}/>}
               
           </div>
